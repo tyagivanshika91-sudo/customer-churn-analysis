@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local source data and generated outputs
+data/raw/*.csv
+data/processed/*.csv
+outputs/*
+!outputs/.gitkeep
+
+# Local databases
+*.sqlite
+*.db
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
